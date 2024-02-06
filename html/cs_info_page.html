@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <!--This section contains meta data ,title and internal styling-->
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Title of the page-->
+    <title> CS Department </title>
+    <!--Adding Bootsrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--Internal styling for the page-->
+    <style>
+        table {
+  margin: 16px;
+}
+/*Setting width for the first column of the table*/
+.first-column {
+  width: 250px; 
+}
+/*Setting width for the second column of the table*/
+.second-column {
+  width: 300px; 
+}
+th, td {
+  text-align: left;
+  border: 1px solid ;
+  padding: 16px;
+}
+
+/*Custom style which can be applied to any element in the page*/
+.customStyle {
+            color: #006633;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+/*Adding style for h1 tag*/
+h1 {
+            color: #006633;
+            font-weight: bold;
+        }
+        /*Adding style for body tag*/
+        body {
+            background-color:lightgray;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color: black;
+        }
+        /*Adding style for the heading of the page*/
+        .headingTop{
+            border: 5px solid #006633;
+            box-shadow: 3px 3px 10px;
+            padding-left: 2%;
+            margin-bottom: 15px;
+            text-align: center;
+            background-color: #ffcc33;
+        }
+         /* Styling for the Computer Science department heading */
+        .csTop{
+            color:#FFCC33;
+        }
+        .alert-info {
+            color: #006633 ;
+            font-size: large;
+        }
+        
+    </style>
+    <script>
+        window.onerror = function() {
+            window.location.href = 'html/error.html';
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+            <!-- Heading section at the top of the page -->
+        <div class="headingTop">
+    <h1> George Mason University</h1>
+</div>
+  <!-- Heading for the Computer Science department -->
+    <div class="csTop"> 
+        <h2> Computer Science Department </h2>
+     </div>
+    <!-- providing information aboyt CS department-->
+        <div class="alert alert-info" style="text-align: justify;">
+            The Computer Science graduate program prepares students for research and professional practice in computer science and related technologies. The program includes both fundamentals and advanced work in the areas of artificial intelligence and databases, programming languages and software engineering, systems and networks, theoretical computer science, and visual computing. <br><br>Graduate classes are divided into basic classes, which have no graduate course prerequisite, and advanced classes, which have a graduate class as a prerequisite. Graduate classes are generally offered in the late afternoon and evening. Financial aid in the form of graduate assistantships may be available for full-time degree-seeking students.
+          </div>
+          <!--List of all the MS degrees-->
+        <h2> List of MS degrees :</h2>
+        <ul>
+            <li>Computer Science</li>
+            <li>Data Analytics Engineering</li>
+            <li>Electrical Engineering</li>
+            <li>Information Systems</li>
+            <li>Software Engineering</li>
+        </ul>
+        <!--The required courses for MS in Computer Science-->
+        <h3 class="text-success">MS in Computer Science-Required Courses 
+        </h3>
+        <table>
+            <!--Table header row-->
+            <tr>
+                 <!--Adding the course number as first column of the table and course name as the second column of the table-->
+                <th class="first-column"> Course number</th>
+                <th class="second-column"> Course name </th>
+            </tr>
+            <!--Table data row-->
+            <tr>
+                <td >CS 504</td>
+                <td> Principles Data Management/Mining</td>
+            </tr>
+            <tr>
+                <td>CS 530 </td>
+                <td>Mathematical Foundations of CS </td>
+            </tr>
+            <tr>
+                <td> CS 531</td>
+                <td>Comp Sys and Sys Programming </td>
+            </tr>
+            <tr>
+                <td> CS 550 </td>
+                <td>Database Systems </td>
+            </tr>
+            <tr>
+                <td>CS 551 </td>
+                <td>Computer Graphics </td>
+            </tr>
+            <tr>
+                <td>CS 571 </td>
+                <td> Operating Systems</td>
+            </tr>
+            <tr>
+                <td>CS 580 </td>
+                <td> Intro Artificial Intelligence </td>
+            </tr>
+            <tr>
+                <td>CS 580 </td>
+                <td> Analysis of Algorithms I </td>
+            </tr>
+            <tr>
+                <td> CS 584 </td>
+                <td>Theory/ Application Data Mining </td>
+            </tr>
+        </table>
+           <!--The required courses for MS in Data Analytics Engineering-->
+        <h3 class="text-success">MS in Data Analytics Engineering - Required Courses 
+        </h3>
+        <table>
+             <!--Table header row-->
+            <tr>
+                <th class="first-column"> Course number</th>
+                <th class="second-column"> Course name </th>
+            </tr>
+            <!--Table data row-->
+            <tr>
+                <td>AIT 580 </td>
+                <td> Analytics: Big Data to Information </td>
+            </tr>
+            <tr>
+                <td>CS 504 </td>
+                <td>Principles of Data Management and Mining </td>
+            </tr>
+            <tr>
+                <td>CS 584 </td>
+                <td> Theory and Applications of Data Mining </td>
+            </tr>
+            <tr>
+                <td>OR 531 </td>
+                <td> Introduction to Analytics and Modeling </td>
+            </tr>
+            <tr>
+                <td>OR 541 </td>
+                <td>Operations Research: Deterministic Models </td>
+            </tr>
+            <tr>
+                <td> STAT 515</td>
+                <td>Applied Statistics and Visualization for Analytics </td>
+            </tr>
+            <tr>
+                <td>STAT 554 </td>
+                <td> Applied Statistics I </td>
+            </tr>
+        </table>
+         <!--The required courses for MS in Electrical Engineering-->
+        <h3 class="text-success">MS in Electrical Engineering - Required Courses 
+        </h3>
+        <table>
+             <!--Table header row-->
+            <tr>
+                <th class="first-column"> Course number</th>
+                <th class="second-column"> Course name </th>
+            </tr>
+            <!--Table data row-->
+            <tr>
+                <td>ECE 511 </td>
+                <td>Computer Architecture </td>
+            </tr>
+            <tr>
+                <td>ECE 518 </td>
+                <td>Power System Protection and Control </td>
+            </tr>
+            <tr>
+                <td>ECE 519 </td>
+                <td>Power Electronics for Modern Power Systems </td>
+            </tr>
+            <tr>
+                <td>ECE 521 </td>
+                <td>Linear Systems and Control </td>
+            </tr>
+            <tr>
+                <td>ECE 527 </td>
+                <td>Learning From Data</td>
+            </tr>
+            <tr>
+                <td> ECE 535 </td>
+                <td>Digital Signal Processing </td>
+            </tr>
+            <tr>
+                <td>ECE 539 </td>
+                <td>Neural Engineering </td>
+            </tr>
+            <tr>
+                <td>ECE 552 </td>
+                <td>Big Data Technologies </td>
+            </tr>
+        </table>
+            <!--The required courses for MS in Information Systems-->
+        <h3 class="text-success">MS in Information Systems-Required Courses 
+        </h3>
+        <table>
+             <!--Table header row-->
+            <tr>
+                <th class="first-column"> Course number</th>
+                <th class="second-column"> Course name </th>
+            </tr>
+            <!--Table data row-->
+            <tr>
+                <td>COMP 502</td>
+                <td>Mathematical Foundations of Computing I</td>
+            </tr>
+            <tr>
+                <td>CS 550</td>
+                <td>Database Systems</td>
+            </tr>
+            <tr>
+                <td>INFS 580</td>
+                <td>Analytics: Big Data to Information</td>
+            </tr>
+            <tr>
+                <td>INFS 611</td>
+                <td>Rapid Information Systems Prototyping</td>
+            </tr>
+            <tr>
+                <td>INFS 622</td>
+                <td>Information Systems Analysis and Design</td>
+            </tr>
+        </table>
+        <!--The required courses for MS in Software Engineering-->
+        <h3 class="text-success">MS in Software Engineering-Required Courses 
+        </h3>
+        <table>
+             <!--Table header row-->
+            <tr>
+                <th class="first-column"> Course number</th>
+                <th class="second-column"> Course name </th>
+            </tr>
+            <!--Table data row-->
+            <tr>
+                <td>SWE 619</td>
+                <td> Object-Oriented Software Specification and Construction</td>
+            </tr>
+            <tr>
+                <td>SWE 621</td>
+                <td>Software Modeling and Architectural Design</td>
+            </tr>
+            <tr>
+                <td>SWE 632</td>
+                <td>User Interface Design and Development</td>
+            </tr>
+            <tr>
+                <td>SWE 637</td>
+                <td> Software Testing</td>
+            </tr>
+        </table>
+        <!--Adding link to the survey page-->
+        <p style="color: #006633;font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 200;font-style: oblique;">Follow this link to go to CS Department Survey Page: <u style="color:blue"><a href="survey_page.html">CS Department Survey Page</a></u></p> 
+    </div>
+</body>
+</html>
